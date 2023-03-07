@@ -1,4 +1,4 @@
-module github.com/11301858/XAISuite
+module github.com/11301858/xaisuitecli/xaisuitecli
 
 go 1.20
 
