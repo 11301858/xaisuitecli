@@ -1,0 +1,30 @@
+builds:
+  - binary: xai
+    goos:
+      - darwin
+      - linux
+    goarch:
+      - amd64
+      - arm64
+    env:
+      - CGO_ENABLED=0
+
+release:
+  prerelease: auto
+
+universal_binaries:
+  - replace: true
+
+brews:
+  -
+    name: xai
+    homepage: "https://github.com/11301858/XAISuite"
+    tap:
+      owner: 11301858
+      name: homebrew-tap
+    commit_author:
+      name: Shreyan Mitra
+      email: xaisuite@gmail.com
+
+checksum:
+  name_template: 'checksums.txt'
