@@ -1,4 +1,4 @@
-module github.com/11301858/xaisuitecli/xaisuitecli
+module github.com/11301858/xaisuitecli/tree/main/xaisuitecli/cmd
 
 go 1.20
 
