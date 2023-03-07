@@ -1,5 +1,6 @@
 builds:
-  - binary: xai
+  - main: /xaisuitecli
+    binary: xai
     goos:
       - darwin
       - linux
