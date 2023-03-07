@@ -1,0 +1,2 @@
+# xaisuitecli
+CLI for XAISuite
