@@ -1,2 +1,2 @@
 # xaisuitecli
-CLI for XAISuite (github.com/11301858/XAISuite)
+CLI for XAISuite. Check out github.com/11301858/XAISuite 
