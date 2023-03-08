@@ -6,7 +6,7 @@ package main
 
 import ( 
 
-	"github.com/11301858/XAISuite/cmd"
+	"github.com/11301858/xaisuitecli/cmd"
 
 )
 
