@@ -1,5 +1,5 @@
 builds:
-    binary: xai
+  - binary: xai
     goos:
       - darwin
       - linux
