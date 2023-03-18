@@ -23,7 +23,7 @@ jobs:
         with:
           go-version: 1.17
       -
-        name: Run GoReleaser
+        name: Releasing to Brew
         uses: goreleaser/goreleaser-action@v2
         with:
           distribution: goreleaser
