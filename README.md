@@ -11,12 +11,10 @@ brew install xai
 
 ```
 
-If you are on a Mac, you may need to add `/usr/local/Cellar/xai/2.0.4/bin` to path. 
-
 Then, in terminal, type:
 
 ```
-xaisuitecli -h
+xai -h
 
 ```
 and you should be ready to go. 
