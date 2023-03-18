@@ -16,7 +16,7 @@ import (
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "XAISuite CLI",
+	Use:   "xai",
 	Short: "Train and explain machine learning models",
 	Long: `This is the command-line interface for XAISuite, an unified platform for training and explaining machine learning models. Please check the github repository at github.com/11301858/xaisuitecli for details and use instructions`,
 	// Uncomment the following line if your bare application
