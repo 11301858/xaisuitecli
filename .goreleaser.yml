@@ -18,7 +18,7 @@ universal_binaries:
 brews:
   -
     name: xai
-    homepage: "https://github.com/11301858/XAISuite"
+    homepage: "https://github.com/11301858/XAISuite" 
     tap:
       owner: 11301858
       name: homebrew-tap
