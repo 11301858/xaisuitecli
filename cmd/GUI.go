@@ -18,7 +18,7 @@ import (
 
 // GUICmd represents the GUI command
 var GUICmd = &cobra.Command{
-	Use:   "GUI",
+	Use:   "gui",
 	Short: "Opens XAISuite's GUI",
 	Run: func(cmd *cobra.Command, args []string) {
                 fmt.Println("Installing XAISuite...")
