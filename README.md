@@ -1,4 +1,4 @@
-# Welcome to XAISuite CLI!
+# Welcome to XAISuite CLI! The world's first machine learning CLI.
 
 This is the CLI for XAISuite. Check out github.com/11301858/XAISuite for the mother project.
 
