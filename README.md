@@ -11,12 +11,19 @@ brew install xai
 
 ```
 
-Then, in terminal, type:
+For Mac, type in terminal
+
+```
+xaisuitecli -h
+
+```
+and otherwise type 
 
 ```
 xai -h
 
 ```
+
 and you should be ready to go. 
 
 A previous version of XAISuiteCLI, xaisuitecli-legacy, is implemented using shell script and python. That program still works. The new and updated XAISuite CLI, however, is fully coded in Go and offers more options to the user.
