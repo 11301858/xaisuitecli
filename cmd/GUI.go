@@ -22,7 +22,7 @@ var GUICmd = &cobra.Command{
 	Short: "Opens XAISuite's GUI",
 	Run: func(cmd *cobra.Command, args []string) {
                 fmt.Println("Installing XAISuite...")
-		install := exec.Command("zsh", "-c", "pip install XAISuite", "--upgrade")
+		install := exec.Command("zsh", "-c", "pip install XAISuite --upgrade")
                 install.Stdin = os.Stdin
                 install.Stdout = os.Stdout
                 install.Stderr = os.Stderr
