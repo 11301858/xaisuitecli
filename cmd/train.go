@@ -57,7 +57,7 @@ var trainCmd = &cobra.Command{
 			
 		}
                 fmt.Println("Installing XAISuite...")
-		install := exec.Command("zsh", "-c", "pip install XAISuite --upgrade")
+		install := exec.Command("zsh", "-c", "pip install XAISuite==1.0.8")
                 install.Stdin = os.Stdin
                 install.Stdout = os.Stdout
                 install.Stderr = os.Stderr
