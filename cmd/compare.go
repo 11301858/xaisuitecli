@@ -34,7 +34,7 @@ var compareCmd = &cobra.Command{
                 }
                 fmt.Println("Initializing Commands...")
                 files := strings.Join(args[:], "\", \"")
-                compare_python := exec.Command("zsh", "-c", "python -c from xaisuite import*;compare_explanations([\"" + files + "\"])")
+                compare_python := exec.Command("zsh", "-c", "python -c import pkg_resources; pkg_resources.require('XAISuite==1.0.8'); from xaisuite import*;compare_explanations([\"" + files + "\"])")
                 fmt.Println(compare_python)
                 compare_python.Stdin = os.Stdin
                 compare_python.Stdout = os.Stdout
